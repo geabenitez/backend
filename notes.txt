@@ -13,7 +13,12 @@ PASOS
   - git remote add origin [URL]
   - git commit -m "[MESSAGE]"
   - git push -u origin master (primera vez)
-    - git push (2da vez en adelante)
+    - git push que es un ORM(2da vez en adelante)
 
 Nodejs
   NPM (Node Package Manager) // Yarn
+
+ORM
+  Object Relational Mapping
+  - knexjs http://knexjs.org/
+  - typeorm
