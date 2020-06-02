@@ -22,3 +22,11 @@ ORM
   Object Relational Mapping
   - knexjs http://knexjs.org/
   - typeorm
+
+
+INICIAR PROYECTO
+  - Clonar repositorio
+  - Abrir con VSCode
+  - Abrir consola
+  - npm i (instalar las dependencias)
+  - npm run dev (levantar el servidor)
