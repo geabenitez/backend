@@ -8,10 +8,18 @@ app.get('/', (req, res) => {
   res.send('Not Allowed')
 })
 
+// - ACTUALIZAR A MYSQL
+// - ruta que devuelva un solo usuario (por id)
+// /users/:id localhost:3000/users/1
+// - runta que cree usarios
+// /users (POST) (name, email, password)
+// HACER COMMIT
+// HACER PUSH
+
 // localhost:3000/users   ASYNC/AWAIT
 app.get('/users', async (req, res) => {
   try {
-    const users = await knex.select().from('userss')
+    const users = await knex.select().from('users')
     res.json({
       users: users
     })
