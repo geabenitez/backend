@@ -1,2 +1,19 @@
+
+SERVICIO
+  - Git
+    - Versionamiento
+
+SOFTWARE
+  - Github
+  - Bitbucket
+  - Gitlab
+
+PASOS
+  - git init
+  - git remote add origin [URL]
+  - git commit -m "[MESSAGE]"
+  - git push -u origin master (primera vez)
+    - git push (2da vez en adelante)
+
 Nodejs
   NPM (Node Package Manager) // Yarn
